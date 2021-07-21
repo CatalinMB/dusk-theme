@@ -9,7 +9,7 @@
 
 <div class="hero-photo--section">
   {% if section.settings.show_announcement %}
-  <img src={{ section.settings.image.src }} />
+ {%- if section.settings.image.width >= 750 -%}{{ section.settings.image | img_url: '750x' }} 750w,{%- endif -%}
   {% endif %}
 
 </div>
