@@ -8,7 +8,9 @@
 
 <div class="hero-photo--section">
   {% if section.settings.show_announcement %}
+  <div>
   {{ image | img_url: section.settings.image-picker }}
+  </div>
   {% endif %}
 
 </div>
