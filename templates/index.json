@@ -1,10 +1,5 @@
 {
   "sections": {
-    "hero-photo": {
-      "type": "hero-photo",
-      "settings": {
-      }
-    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -29,6 +24,11 @@
       ],
       "settings": {
         "desktop_text_box_position": "flex-end"
+      }
+    },
+    "hero-photo": {
+      "type": "hero-photo",
+      "settings": {
       }
     },
     "featured_products": {
