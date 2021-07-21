@@ -66,8 +66,8 @@
     }
   },
   "order": [
-    "hero-photo",
     "image_banner",
+    "hero-photo",
     "featured_products",
     "image_text"
   ]
